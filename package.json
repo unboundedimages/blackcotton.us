@@ -1,0 +1,52 @@
+{
+  "name": "blackcotton",
+  "version": "1.0.0",
+  "description": "A static website made by African Americans for the world to see.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unboundedimages/blackcotton.us.git"
+  },
+  "keywords": [
+    "Black",
+    "cotton",
+    "blackcotton",
+    "black",
+    "cotton",
+    "business",
+    "black",
+    "business",
+    "black",
+    "ownership",
+    "African",
+    "American",
+    "African-American",
+    "America",
+    "USA",
+    "making",
+    "america",
+    "Great",
+    "FDA",
+    "USDA",
+    "agriculture",
+    "farm",
+    "farming",
+    "tractor",
+    "seeds",
+    "John",
+    "Deere",
+    "Juneteenth",
+    "freedom",
+    "Tillery",
+    "land"
+  ],
+  "author": "Rod Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unboundedimages/blackcotton.us/issues"
+  },
+  "homepage": "https://github.com/unboundedimages/blackcotton.us#readme"
+}
