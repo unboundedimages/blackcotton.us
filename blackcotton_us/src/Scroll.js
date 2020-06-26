@@ -1,9 +1,14 @@
-window.onscroll = function () { scrollFunction() };
+
+
+const scrollit = window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
     if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-      document.getElementById("Blackcotton_Girl_tex").style.fontSize = "30px";
+      document.getElementById("Our_Culture_text").style.fontSize = "1.6em";
     } else {
-      document.getElementById("Blackcotton_Girl_tex").style.fontSize = "90px";
+      document.getElementById("Our_Culture_text").style.fontSize = "1.4em";
     }
   }
+
+
+export default scrollit;

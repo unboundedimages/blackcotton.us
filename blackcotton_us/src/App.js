@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
-import Whitediv from './whitebackground';
+import Cottondiv from './cottonbackground';
 import Cottongirl from './CottonGirl';
 import logo from './logo.svg';
 import './App.css';
@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <div className="App">       
         <Banner/>
-        <Whitediv />
+        <Cottondiv />
         <Cottongirl />
       </div>
     );
