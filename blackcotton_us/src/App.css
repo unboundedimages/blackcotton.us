@@ -5,6 +5,7 @@ html {
 body {
   /* background: black; */
   color: white;
+  font-size: 62.5%;
 }
 
 .App {
@@ -58,6 +59,7 @@ body {
   background-image: url("img/black_girl_fist_cotton_tree.png");
   background-size: 100vh;
   background-position: left; 
+  text-decoration: none;
   /* text-align: right; */
 }
 
@@ -93,33 +95,65 @@ body {
   /* background:transparent; */
 }
 
-.Social_Media::before {
-  content:url('img/white_instagram_logo_40hw.png')' @blackcotton.us';
 
-  display: block;
-  /* top:10em; */
-  position: relative;
-  color:white;
-  /* height:auto; */
-  /* width:auto; */
-  font-size: 14px;
+
+.Social_Icons {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: right;
 }
 
-/* .Social_Media::after { */
- /* background-image:url('img/white_instagram_logo.png'); */
- /* background-repeat:no-repeat;
- background-size: auto 7vh;
- display: inline-block;
- position: relative;
- top:32.4vh; */
- /* left: 29.2vw; */
- /* left:300px; */
- /* left:375px;
- width: 4vw; 
- height: 8vh; */
- /* content: url('img/white_instagram_logo.png'); */
-/* } */
+#IG {
+  margin-top: -95vh;
+}
 
+#FB {
+  width: 92vw;
+  margin-top: 5vh;
+}
+
+
+
+a.Instagram_Icon {
+  overflow: hidden;
+  color:white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 11px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.Instagram_Icon::before {
+  content:url('img/white_instagram_logo_40hw.png');
+  position: relative;
+  padding-right: .5em;  
+}
+
+a.Facebook_icon{
+  /* width:33%; */
+  overflow: hidden;
+  color:white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 11px;
+  display: inline;
+  text-decoration: none;
+}
+.Facebook_icon::before {
+  content: url('img/facebook_icon_40hw.png');
+  position: relative;
+  padding-right:.5em;
+  /* overflow: hidden;
+  color:white;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 11px;
+  display: inline;
+  text-decoration: none; */
+}
+
+ 
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
