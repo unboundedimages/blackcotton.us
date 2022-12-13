@@ -50,6 +50,6 @@
   },
   "homepage": "https://github.com/unboundedimages/blackcotton.us#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
